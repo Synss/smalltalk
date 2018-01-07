@@ -1525,9 +1525,9 @@ simple print-out functions.
 @example
    printOn: stream [
        super printOn: stream.
-       ', checks left: ' printOn: stream.
+       stream nextPutAll: ', checks left: '.
        checksleft printOn: stream.
-       ', checks written: ' printOn: stream.
+       stream nextPutAll: ', checks written: '.
        (history size) printOn: stream.
    ]
    check: num [

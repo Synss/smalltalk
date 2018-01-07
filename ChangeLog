@@ -1,5 +1,9 @@
 2018-03-10 Mathias Laurin <Mathias.Laurin@gmail.com>
 
+	* doc/tutorial.texi: Improve Checkers printOn: message.
+
+2018-03-10 Mathias Laurin <Mathias.Laurin@gmail.com>
+
 	* doc/tutorial.texi: Format examples consistently.
 
 2018-03-10 Mathias Laurin <Mathias.Laurin@gmail.com>
