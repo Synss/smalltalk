@@ -1433,7 +1433,7 @@ class.
 
 @example
 Checking extend [
-    | history |
+   | history |
 @end example
 
 This is the same syntax as the last time we defined a checking account,
@@ -1448,12 +1448,12 @@ With our new Checking instance variable, we are all set to start recording
 our checking history.  Our first change will be in the handling of the
 @code{init} message:
 @example
-       init [
-           <category: 'initialization'>
-           checksleft := 0.
-           history := Dictionary new.
-           ^ super init
-       ]
+   init [
+       <category: 'initialization'>
+       checksleft := 0.
+       history := Dictionary new.
+       ^ super init
+   ]
 @end example
 
 This provides us with a Dictionary, and hooks it to our new
