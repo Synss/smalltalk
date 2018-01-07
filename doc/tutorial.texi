@@ -1663,8 +1663,8 @@ As with the integer loops, the Interval class can also
 represent steps greater than 1.  It is done much like it was
 for our numeric loop above:
 @example
-   i := (Interval from: 5 to: 10 by: 2)
-   i do: [:x| x printNl]
+   i := Interval from: 5 to: 10 by: 2
+   i do: [:x | x printNl]
 @end example
 
 @node Invoking code blocks
